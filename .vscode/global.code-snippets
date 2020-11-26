@@ -1,0 +1,16 @@
+{
+	"Generate function component": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "fc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"const $1: React.FC = ({}) => {",
+			"    return <></>;",
+			"};",
+			"",
+			"export default $2;"
+		],
+		"description": "Log output to console"
+	}
+}
