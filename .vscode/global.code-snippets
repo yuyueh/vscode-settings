@@ -1,5 +1,5 @@
 {
-	"Generate function component": {
+	"Function Component": {
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
 		"prefix": "fc",
 		"body": [
@@ -11,6 +11,26 @@
 			"",
 			"export default $2;"
 		],
-		"description": "Log output to console"
+		"description": "Generate function component."
+	},
+	"Customer Hook": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "ch",
+		"body": [
+			"import React, { useState, useEffect } from 'react';",
+			"",
+			"const use$1 = ({}) => {",
+			"    const [$2] = useState($3);",
+			"",
+			"    useEffect(() => {",
+			"        ",
+			"    });",
+			"",
+			"    return $4;",
+			"};",
+			"",
+			"export default use$5;"
+		],
+		"description": "Generate custom hook."
 	}
 }
