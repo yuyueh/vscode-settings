@@ -1,7 +1,10 @@
 {
     "recommendations": [
         "esbenp.prettier-vscode",
-        "jpoissonnier.vscode-styled-components",
-        "dbaeumer.vscode-eslint"
+        "streetsidesoftware.code-spell-checker",
+        "jpoissonnier.vscode-styled-components", // react
+        "dbaeumer.vscode-eslint", // react
+        "onixie.angular-component-extension", // angular
+        "angular.ng-template" // angular
     ]
 }
