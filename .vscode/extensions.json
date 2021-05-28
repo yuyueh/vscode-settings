@@ -2,6 +2,7 @@
     "recommendations": [
         "esbenp.prettier-vscode",
         "streetsidesoftware.code-spell-checker",
+        "liamhammett.inline-parameters",
         "jpoissonnier.vscode-styled-components", // react
         "dbaeumer.vscode-eslint", // react
         "onixie.angular-component-extension", // angular
